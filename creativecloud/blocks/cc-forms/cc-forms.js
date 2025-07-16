@@ -25,6 +25,7 @@ const formConfig = {
     jsPath: '/creativecloud/features/cc-forms/forms/perpeptual.js',
     blockDataset: {
       clientname: 'trials',
+      clientname2: 'trials',
       endpoint: '/api2/marketing_common_service',
       'form-type': 'form.perpetual.action',
       'form-submit': 'trials',
