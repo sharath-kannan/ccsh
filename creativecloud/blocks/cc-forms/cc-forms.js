@@ -34,6 +34,7 @@ const formConfig = {
   },
   connect: {
     type: 'connect',
+    type2: 'connect',
     jsPath: '/creativecloud/features/cc-forms/forms/connect.js',
     blockDataset: {
       clientname: 'connecttrial',
