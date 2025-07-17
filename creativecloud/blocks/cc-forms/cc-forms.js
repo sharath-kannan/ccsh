@@ -62,7 +62,7 @@ const formConfig = {
     type: 'unsubscribe',
     jsPath: '/creativecloud/features/cc-forms/forms/unsubscribe.js',
     blockDataset: {
-      clientname: 'trials',
+      clientname: 'trials5',
       endpoint: '/api2/unsubscribe_v2',
       'form-type': 'form.unsubscribe.action',
       'form-submit': 'trials',
