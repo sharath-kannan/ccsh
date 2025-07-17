@@ -25,14 +25,17 @@ const formConfig = {
     jsPath: '/creativecloud/features/cc-forms/forms/perpeptual.js',
     blockDataset: {
       clientname: 'trials',
+      clientname2: 'trials',
       endpoint: '/api2/marketing_common_service',
       'form-type': 'form.perpetual.action',
       'form-submit': 'trials',
+      'form-submit2': 'trials',
       ...odinConfig,
     },
   },
   connect: {
     type: 'connect',
+    type2: 'connect',
     jsPath: '/creativecloud/features/cc-forms/forms/connect.js',
     blockDataset: {
       clientname: 'connecttrial',
@@ -41,6 +44,7 @@ const formConfig = {
       customValue: 'region,timezone',
       imsAddressMailValue: 'postalcode,state,country',
       rengaUDSValue: 'orgsize',
+      rengaUDSValueq: 'orgsize',
       userProfileValue: 'country,fname,lname,phonenumber,email,orgname,jobfunction,industry',
       ...odinConfig,
     },
@@ -62,7 +66,7 @@ const formConfig = {
     type: 'unsubscribe',
     jsPath: '/creativecloud/features/cc-forms/forms/unsubscribe.js',
     blockDataset: {
-      clientname: 'trials',
+      clientname: 'trials5',
       endpoint: '/api2/unsubscribe_v2',
       'form-type': 'form.unsubscribe.action',
       'form-submit': 'trials',

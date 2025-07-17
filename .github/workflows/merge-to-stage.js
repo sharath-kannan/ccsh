@@ -1,4 +1,4 @@
-const STAGE = 'stage';
+const STAGE = 'stage_test';
 const PROD = 'main';
 const PR_TITLE = `[Release] Stage to Main ${new Date().toLocaleDateString("en-US", { month: "2-digit", day: "2-digit" })}`;
 const SEEN = {};
@@ -8,7 +8,7 @@ let body = `
 - Before: https://${PROD}--cc--adobecom.aem.live/?martech=off
 - After: https://${STAGE}--cc--adobecom.aem.live/?martech=off
 `;
-const REQUIRED_APPROVALS = process.env.REQUIRED_APPROVALS || 2;
+const REQUIRED_APPROVALS = process.env.REQUIRED_APPROVALS || 1;
 const MIN_APPROVAL_TO_STOP_MERGE = 1;
 const LABELS = {
   highPriority: 'high priority',
